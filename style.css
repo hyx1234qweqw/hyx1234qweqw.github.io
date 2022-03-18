@@ -1,9 +1,25 @@
-a:hover { color:green;}
-  main {
+
+  a:hover { color:green;}
+  body{
     display: flex;
     flex-direction: column;
   }
+  main {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+  }
+  aside{
+    display: flex;
+    flex: 1;
+  }
+  article{
+    display: flex;
+    flex: 3;
+  }
+
   header{
+    display: flex;
     display: flex;
     justify-content:center;
       }   
