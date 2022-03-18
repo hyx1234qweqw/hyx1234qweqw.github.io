@@ -1,3 +1,13 @@
-a:hover {
-color: green;
-}
+a:hover { color:green;}
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  header{
+    display: flex;
+    justify-content:center;
+      }   
+footer{
+  display: flex;
+  justify-content:center;
+    }
