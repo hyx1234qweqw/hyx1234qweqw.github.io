@@ -1,17 +1,21 @@
 
   a:hover { color:green;}
   body{
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+   flex-direction: column;
+  justify-content: flex-end;
+  
   }
   main {
     display: flex;
     flex: auto;
+    background-color: rgb(253, 194, 240);
     flex-direction: row;
   }
   aside{
     display: flex;
     flex: 1;
+    background-color: rgba(97, 97, 235, 0.596);
   }
   article{
     display: flex;
@@ -23,6 +27,7 @@
     display: flex;
     display: flex;
     justify-content:center;
+    background-color: bisque;
       }   
 footer{
   display: flex;
