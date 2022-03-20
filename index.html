@@ -9,7 +9,7 @@
 <link href="style.css" rel="stylesheet">
    <script src="thumbnail.js"></script>
    <link rel="stylesheet" href="www.runoob.com/images/logo.png" type="image/x-icon"> 
-   
+   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
 </head>
 <body>
@@ -49,6 +49,31 @@
     </main>
     <footer>by <a href="https://www.zhihu.com/people/123-83-52-86" target="_blank">HYX</a> for 
         <a href="https://www.adalab.cn" target="_blank">Adalab</a></footer>
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'fY5pU89J7MWEvaxSrzgEhdW6-gzGzoHsz',
+                appKey: 'Y9FHcmCRM8Dw4crdDiQL0xWxr'
+            })
+            new Valine({
+    el: '#vcomments' ,
+    appId: 'fY5pU89J7MWEvaxSrzgEhdW6-gzGzoHsz',
+    appKey: 'Y9FHcmCRM8Dw4crdDiQL0xWxr'
+                        });
+                        # Install valine
+npm install valine --save
+// Use import
+import Valine from 'valine';
+// or Use require
+const Valine = require('valine');
+
+new Valine({
+    el:'#vcomments',
+    // other config
+})
+        </script> 
+       
        
 </body>
-</html>
+</html> 
